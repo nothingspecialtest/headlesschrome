@@ -1,0 +1,12 @@
+# Update the package list
+sudo apt-get update
+
+# Download the latest stable Google Chrome Debian package
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+# Install the package and automatically resolve dependencies
+sudo apt-get install ./google-chrome-stable_current_amd64.deb -y
+
+# Verify the installation
+google-chrome --version
+
