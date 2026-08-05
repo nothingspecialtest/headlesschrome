@@ -1,0 +1,1 @@
+google-chrome-stable --headless=new --no-sandbox --disable-gpu print-to-pdf --window-size=1280,1696 https://example.com
